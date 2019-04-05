@@ -139,6 +139,7 @@ typealias didFinishShowingCompletion=()->Void
 typealias willStartDismissingCompletion=()->Void
 typealias didFinishDismissingCompletion=()->Void
 
+
 class PJPopup:UIView {
     
     //这是您想要在弹出窗口中显示的视图。
@@ -468,7 +469,6 @@ class PJPopup:UIView {
     }
     
     // MARK:- 展示
-    
     private func showWithParameters(parameters:Dictionary<String,Any>){
         if isBeingShown == false && isShowing == false && isBeingDismissed == false {
             isBeingShown = true
@@ -497,7 +497,12 @@ class PJPopup:UIView {
                 self.backgroundView?.alpha = 0.0
                 
                 if (self.maskType == .PJPopupMaskTypeDimmed) {
-                    self.backgroundView?.backgroundColor = UIColor(displayP3Red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: self.dimmedMaskAlpha)
+                    // if #available(iOS 10.0, *) {
+                    //     self.backgroundView?.backgroundColor = UIColor(displayP3Red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: self.dimmedMaskAlpha)
+                    // } else {
+                    // Fallback on earlier versions
+                         self.backgroundView?.backgroundColor = UIColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: self.dimmedMaskAlpha)
+                  // }
                 }
                 else {
                     self.backgroundView?.backgroundColor = UIColor.clear
