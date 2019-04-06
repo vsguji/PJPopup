@@ -498,10 +498,10 @@ class PJPopup:UIView {
                 
                 if (self.maskType == .PJPopupMaskTypeDimmed) {
                     // if #available(iOS 10.0, *) {
-                    //     self.backgroundView?.backgroundColor = UIColor(displayP3Red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: self.dimmedMaskAlpha)
+                         self.backgroundView?.backgroundColor = UIColor(displayP3Red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: self.dimmedMaskAlpha)
                     // } else {
                     // Fallback on earlier versions
-                         self.backgroundView?.backgroundColor = UIColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: self.dimmedMaskAlpha)
+                    //     self.backgroundView?.backgroundColor = UIColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: self.dimmedMaskAlpha)
                   // }
                 }
                 else {

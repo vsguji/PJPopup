@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "popup.podspec"
+  s.name         = "PJPopup"
   s.version      = "1.0"
   s.summary      = "弹出框swift Popup"
-  s.swift_version = '4.2'
+  s.swift_versions = ['4.2']
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
    s.platform     = :ios
-   s.platform     = :ios, "8.0"
+   s.platform     = :ios, "10.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
