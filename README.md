@@ -1,5 +1,7 @@
 #  PJPopup
 
+![效果图](https://github.com/vsguji/PJPopup/blob/master/Popup/ScreenShot_20190405182437.png)
+
 Animation:
 
 罗列几种弹出内容视图效果
@@ -24,7 +26,7 @@ Layout:
 
 
 支持位置变化:
-
+/*
 // MARK:- KLCPopupHorizontalLayout:控制弹出窗口水平放置的位置。
 enum PJPopupHorizontalLayout {
 case PJPopupHorizontalLayoutCustom
@@ -44,7 +46,7 @@ case PJPopupVerticalLayoutCenter
 case PJPopupVerticalLayoutBelowCenter
 case PJPopupVerticalLayoutBottom
 }
-
+*/
 
 Dismiss & Touch
 
