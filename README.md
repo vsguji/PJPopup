@@ -26,7 +26,7 @@ Layout:
 
 
 支持位置变化:
-/*
+```
 // MARK:- KLCPopupHorizontalLayout:控制弹出窗口水平放置的位置。
 enum PJPopupHorizontalLayout {
 case PJPopupHorizontalLayoutCustom
@@ -46,7 +46,7 @@ case PJPopupVerticalLayoutCenter
 case PJPopupVerticalLayoutBelowCenter
 case PJPopupVerticalLayoutBottom
 }
-*/
+```
 
 Dismiss & Touch
 
