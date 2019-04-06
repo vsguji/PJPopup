@@ -57,6 +57,10 @@ Dismiss & Touch
 
 ## License
 
+Apache License, Version 2.0
+
+非[996.ICU](https://github.com/996icu/996.ICU)公司使用
+
 [KLCPopup](https://github.com/jmascia/KLCPopup)   
 
 KLCPopup 是OC项目.
